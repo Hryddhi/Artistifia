@@ -1,6 +1,7 @@
 <?php include('mysqlConnection.php');
 
 
+
 if(!isset($_POST['username'])) {
 	echo "ERROR: Could not set username";
 	exit();

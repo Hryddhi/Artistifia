@@ -1,4 +1,12 @@
-<?php include('includes/header.php'); ?>
+
+
+<?php include('includes/header.php');
+
+
+
+
+
+?>
 
 
 <div class="userDetails">
@@ -10,8 +18,11 @@
 		<input type="password" class="newPassword1" name="newPassword1" placeholder="New password">
 		<input type="password" class="newPassword2" name="newPassword2" placeholder="Confirm password">
 		<span class="message"></span>
-        <a href="includes/changePass.php"><button class="button">SAVE</button></a>
-</div>
+        <a href="login.php"><button type="submit" class="button">SAVE</button></a>
+    </div>
 
 </div>
+</body>
+</html>
+
 
